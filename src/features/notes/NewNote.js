@@ -2,6 +2,7 @@
 import NewNoteForm from './NewNoteForm'
 import PulseLoader from 'react-spinners/PulseLoader'
 import { useGetUsersQuery } from '../users/usersApiSlice'
+import useTitle from '../../hooks/useTitle'
 
 const NewNote = () => {
 
